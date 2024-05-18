@@ -1,0 +1,21 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'nb_ch06_05.ipynb'
+ outputting to 'nb_ch06_05_tfv2.ipynb'
+--------------------------------------------------------------------------------
+
+40:11: INFO: Renamed 'tf.get_default_graph' to 'tf.compat.v1.get_default_graph'
+45:13: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+49:11: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+112:26: INFO: Renamed 'tf.GraphDef' to 'tf.compat.v1.GraphDef'
+424:0: INFO: Renamed 'tf.gfile.MkDir' to 'tf.io.gfile.mkdir'
+--------------------------------------------------------------------------------
+
